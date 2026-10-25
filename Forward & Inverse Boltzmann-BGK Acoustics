@@ -42,11 +42,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-# ============================================================================
-# SECTION: chebykan.py
-# ============================================================================
-"""
-Chebyshev-based Kolmogorov-Arnold Network (Chebyshev-KAN), implemented with
+implemented with
 JAX automatic differentiation.
 
 Each layer replaces the fixed nonlinearity + linear-weight structure of an
